@@ -5,4 +5,4 @@ Here I present you a simple template for Login with Html, CSS and Validation by 
 Licence
 ---------------------
 
-Copyright @2018 Imed.
+Copyright @2018 Imed Messai.
