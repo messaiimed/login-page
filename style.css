@@ -1,0 +1,159 @@
+/* Page Login*/
+
+.page_login{
+    height: auto;
+    width: 100%;
+    min-height: 100%;
+    padding: 35px 0;
+}
+.logo_login{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.page_login form{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+}
+
+.page_login .item{
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #003f63;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: -1px;
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.page_login .item-input{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 3px 0 3px 16px;
+    text-align: center;
+}
+.page_login .item-input>input::-webkit-input-placeholder {
+    color: #003f63;;
+}
+
+.page_login .item-input>input:-moz-placeholder { /* Firefox 18- */
+    color: #003f63;;
+}
+
+.page_login .item-input>input::-moz-placeholder {  /* Firefox 19+ */
+    color: #003f63;;
+}
+
+.page_login .item-input>input:-ms-input-placeholder {
+    color: #003f63;;
+}
+.page_login .item-input>input{
+    color: #003f63;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+}
+
+.page_login>form .btnLogin {
+    margin-top: 0;
+    background: #ffbe23;
+    color: #003f63;
+    font-size: 16px;
+    border-radius: 0;
+    font-weight: 600;
+    min-height: 0;
+    line-height: inherit;
+    padding: 10px 0;
+    border: none;
+    border-top: 1px solid #b5830a;
+    border-bottom: 1px solid #b5830a;
+}
+
+.page_login>form .btnLogin.activated{
+    border: none;
+    border-top: 1px solid #b5830a;
+    border-bottom: 1px solid #b5830a;
+    background: #b5830a;
+    color: #003f63;
+}
+.page_login>form .btnLogin:hover{
+    color: #003f63;
+}
+.page_login .item.mailError{
+    margin-top: 4px;
+    color: #ef473a;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.icon_login{
+    position: fixed;
+    bottom: 10px;
+    padding: 0 5px;
+
+}
+.icon_login .col-33{
+    padding: 0 5px;
+}
+.icon_login .col-33 .btnLog{
+    border-radius: 4px;
+    min-height: 0;
+    min-width: 0;
+    line-height: inherit;
+    padding: 9px 0;
+    height: 40px;
+    font-size: 14px;
+}
+
+.btnLog .icon:before, .btnLog.icon:before, .btnLog.icon-left:before, .btnLog.icon-right:before{
+    line-height: 43px;
+    margin-right: 4px;
+}
+.btnGoogle .icon:before, .btnGoogle.icon:before, .btnGoogle.icon-left:before, .btnGoogle.icon-right:before{
+    line-height: 43px;
+    margin-right: 4px;
+}
+.icon_facebook{
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 20px;
+}
+.icon_google{
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 20px;
+}
+.icon_login .col-33 .btnGoogle{
+    background-color: #e85858 !important;
+    border: 1px solid #c72a2a;
+}
+.icon_login .col-33 .btnFacebook{
+    background-color: #295295 !important;
+    border: 1px solid #193e79;
+}
+.icon_login .col-33 .button-balanced{
+    border: 1px solid #0b8e30;
+}
+
+.icon_username{
+    height: 26px;
+    margin-right: 7px;
+}
+.icon_password{
+    height: 26px;
+    margin-right: 7px;
+}
+
+/* END Page Login*/
